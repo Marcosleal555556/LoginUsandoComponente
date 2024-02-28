@@ -4,7 +4,7 @@ export default function SecondComponent() {
 
 return (
 <View style={styles.container}>
-
+<Text>TESTE</Text>
 </View>
 );
 }

@@ -7,13 +7,12 @@ return (
 <TextInput
     placeholder='Digite Seu E-mail'
     inputMode={'text'}
-    style={styles.email}
+   
     />
 
     <TextInput
     placeholder='Digite Sua Senha'
     inputMode={'text'}
-    style={styles.senha}
     secureTextEntry={true}
     />
 </View>
