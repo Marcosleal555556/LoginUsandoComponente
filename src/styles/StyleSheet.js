@@ -11,8 +11,8 @@ flex: 1,
 // Editar a Fundo
 fundo: {
 
-    height: '100%',
-    width: '100%',
+    height: 300,
+    width: 300,
     resizeMode: 'cover',
     source: 'imagem',
 
@@ -53,4 +53,3 @@ senha: {
 },
 
 });
-
