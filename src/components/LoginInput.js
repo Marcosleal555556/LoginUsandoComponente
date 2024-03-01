@@ -5,14 +5,16 @@ export default function SecondComponent() {
 return (
 <View style={styles.container}>
 <TextInput
-    placeholder='Digite Seu E-mail'
+    placeholder='Digite Seu E-mail:'
+    style={styles.email}
     inputMode={'text'}
    
     />
 
     <TextInput
-    placeholder='Digite Sua Senha'
+    placeholder='Digite Sua Senha:'
     inputMode={'text'}
+    style={styles.senha}
     secureTextEntry={true}
     />
 </View>

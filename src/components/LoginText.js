@@ -4,7 +4,7 @@ export default function SecondComponent() {
 
 return (
 <View style={styles.container}>
-<Text>E-mail E Senha</Text>
+<Text style={styles.text}>Fazer Login</Text>
 </View>
 );
 }

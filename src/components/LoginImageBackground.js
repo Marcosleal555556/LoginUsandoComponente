@@ -1,10 +1,15 @@
 import { Text, View, StyleSheet, ImageBackground } from 'react-native';
 import { styles } from '../styles/StyleSheet';
-export default function SecondComponent() {
+export default function Fundo({ source }){
 
 return (
 <View style={styles.container}>
-<Text>TESTE</Text>
+
+<ImageBackground
+        source={source} style={styles.fundo} 
+    
+      />
+
 </View>
 );
 }

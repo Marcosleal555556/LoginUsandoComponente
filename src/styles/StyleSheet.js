@@ -8,5 +8,49 @@ alignItems:'center',
 flex: 1,
 },
 
+// Editar a Fundo
+fundo: {
+
+    height: '100%',
+    width: '100%',
+    resizeMode: 'cover',
+    source: 'imagem',
+
+},
+
+// Editar a Imagem
+imagem: {
+
+    height: 300,
+    width: 300,
+    resizeMode: 'center',
+    source: 'imagem',
+
+},
+
+// Editar o Text
+text: {
+    textAlign:'center',
+    color: 'black',
+    fontSize: 30,
+    borderStyle:'solid',
+},
+
+// Editar o Input E-mail
+email: {
+    textAlign:'center',
+    color: 'black',
+    fontSize: 30,
+    borderStyle:'solid',
+},
+
+// Editar o Input Senha
+senha: {
+    textAlign:'center',
+  color: 'black',
+  fontSize: 30,
+  borderStyle:'solid',
+},
+
 });
 
