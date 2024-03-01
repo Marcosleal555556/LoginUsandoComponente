@@ -19,10 +19,19 @@ export default function SecondComponent() {
 return (
     
 <View style={styles.container}>
+
+{/*Componente BackGround  */}
 <Fundo source={ImagemFundo}/>
+
+{/* Componente Imagem */}
 <Imagem source={ImagemLogo} />
+
 <Texto />
+
+{/* Componente Campos E-mail E Senha */}
 <Input />
+
+{/* Camponente Botão */}
 <Botao />
 
 </View>

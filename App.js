@@ -7,6 +7,7 @@ export default function App() {
 return (
 <View style={{flex: 1}}>
 
+{/* Componente Login Com tudo que está */}
 <Login />
 
 

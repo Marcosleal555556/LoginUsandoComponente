@@ -4,6 +4,7 @@ export default function SecondComponent() {
 
 return (
 <View style={styles.container}>
+
 <Button
      title='Efetuar Login'
      onPress={() => {
