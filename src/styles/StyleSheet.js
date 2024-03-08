@@ -27,18 +27,29 @@ export const styles = StyleSheet.create({
   },
 
   // Editar a Imagem
+  fundologin: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
   home: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
     padding: 500,
   },
 
   // Editar o Text
   text: {
     textAlign: "center",
-    color: "black",
+    color: "white",
     fontSize: 30,
     borderStyle: "solid",
   },
@@ -46,7 +57,7 @@ export const styles = StyleSheet.create({
   // Editar o Input E-mail
   email: {
     textAlign: "center",
-    color: "black",
+    color: "white",
     fontSize: 30,
     borderStyle: "solid",
   },
@@ -54,7 +65,7 @@ export const styles = StyleSheet.create({
   // Editar o Input Senha
   senha: {
     textAlign: "center",
-    color: "black",
+    color: "white",
     fontSize: 30,
     borderStyle: "solid",
   },

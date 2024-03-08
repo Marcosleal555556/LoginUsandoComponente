@@ -1,7 +1,7 @@
 import { View, TextInput } from "react-native";
-import { styles } from "../styles/Estilos";
+import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
-
+import Rotas from "../components/Rotas";
 export default function ComponentContact() {
 
   const navigation = useNavigation();
@@ -27,6 +27,7 @@ export default function ComponentContact() {
         placeholder="Mensagem"
         inputMode="text"
       />
+      <Rotas />
     </View>
   );
 }

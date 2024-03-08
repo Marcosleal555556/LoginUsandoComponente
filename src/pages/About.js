@@ -1,6 +1,7 @@
 import { Text, View, StyleSheet, Image } from "react-native";
 import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
+import Rotas from "../components/Rotas";
 
 export default function About() {
   //Variável que permite que você navegue entre as telas
@@ -15,6 +16,7 @@ export default function About() {
       <Image source={imagem} resizeMode="cover" style={styles.about}>
         <Text>Exemplo de página About</Text>
       </Image>
+      <Rotas />
     </View>
   );
 }

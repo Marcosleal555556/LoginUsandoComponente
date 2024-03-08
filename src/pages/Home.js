@@ -1,6 +1,7 @@
 import { Text, View, StyleSheet, ImageBackground, Button } from "react-native";
 import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
+import Rotas from "../components/Rotas";
 
 export default function ComponentHome() {
   const Fundo = {
@@ -22,6 +23,8 @@ export default function ComponentHome() {
         >
           HOMEPAGE
         </Text>
+        <Rotas />
+
 
       </ImageBackground>
     </View>
