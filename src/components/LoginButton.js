@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { View, Button } from 'react-native';
 import { styles } from '../styles/StyleSheet';
 export default function SecondComponent() {
 
