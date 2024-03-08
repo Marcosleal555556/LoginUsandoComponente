@@ -18,6 +18,16 @@ fundo: {
 
 },
 
+about: {
+
+    height: 300,
+    width: 300,
+    borderRadius: 300,
+    resizeMode: 'cover',
+    source: 'imagem',
+
+},
+
 // Editar a Imagem
 imagem: {
 

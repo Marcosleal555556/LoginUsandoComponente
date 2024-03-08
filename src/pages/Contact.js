@@ -1,10 +1,10 @@
 import { View } from "react-native";
-import LoginInput from "../Components/LoginInput";
+import Contact from "../components/ComponentContact";
 
 export default function Contact() {
   return (
     <View>
-        <LoginInput/>
+        <Contact/>
     </View>
   );
 }

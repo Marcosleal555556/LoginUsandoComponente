@@ -11,7 +11,7 @@ export default function Home() {
 return (
   
 <View>
-<Image source={imagem} resizeMode="cover" style={styles.imagem}>
+<Image source={imagem} resizeMode="cover" style={styles.about}>
 
 <Text>
 Exemplo de página About

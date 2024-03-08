@@ -15,7 +15,6 @@ return (
 
 <Text>
 HOMEPAGE
-
 </Text>
 
 </ImageBackground>
