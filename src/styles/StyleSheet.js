@@ -10,10 +10,7 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
 
-  // Editar a Fundo
- 
-
-  // Editar a Imagem
+  // Editar o BackgroundLogin
   fundologin: {
     flex: 1,
     width: '100%',
@@ -22,6 +19,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  // Editar A Imagem Gato
   gato: {
     width: 300,
     height: 300,
@@ -30,6 +28,7 @@ export const styles = StyleSheet.create({
 
   },
 
+  // Editar o Background Home
   home: {
     flex: 1,
     width: '100%',
