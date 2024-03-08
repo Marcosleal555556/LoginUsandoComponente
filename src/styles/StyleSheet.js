@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
     resizeMode: 'cover',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 500,
+   
   },
   
 

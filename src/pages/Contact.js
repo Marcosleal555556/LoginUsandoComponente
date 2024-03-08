@@ -1,4 +1,4 @@
-import { View, TextInput } from "react-native";
+import { View, TextInput, Button} from "react-native";
 import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
 import Rotas from "../components/Rotas";
@@ -10,26 +10,34 @@ export default function ComponentContact() {
     <View>
          <Rotas />
       {/* Caixa do nome */}
-      <TextInput style={styles.inputcontact} 
+      <TextInput style={styles.inputname} 
       placeholder="Nome" 
       inputMode="text" 
       />
 
       {/*Caixa do email*/}
       <TextInput
-        style={styles.inputcontact}
+        style={styles.inputname}
         placeholder="E-mail"
         inputMode="text"
       />
       
       {/*Caixa da mensagem do usuario*/}
       <TextInput
-        style={styles.inputcontact}
+        style={styles.inputname}
         placeholder="Mensagem"
         inputMode="text"
       />
 
-
+<Button
+     title='Enviar Mensagem'
+     onPress={() => {
+       alert('Mensagem   Enviada');
+     }}
+     color='green'
+     
+     
+    />
    
     </View>
   );
