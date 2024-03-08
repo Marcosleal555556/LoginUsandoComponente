@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native';
 import { styles } from '../styles/StyleSheet';
-export default function SecondComponent() {
+export default function TextLogin() {
 
 return (
 <View style={styles.container}>

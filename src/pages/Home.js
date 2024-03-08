@@ -23,10 +23,6 @@ export default function ComponentHome() {
           HOMEPAGE
         </Text>
 
-        <Button
-          title="Ir para About"
-          onPress={() => navigation.navigate("Sobre")}
-        />
       </ImageBackground>
     </View>
   );
