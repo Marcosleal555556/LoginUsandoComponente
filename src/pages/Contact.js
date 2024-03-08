@@ -1,13 +1,14 @@
-import { View, TextInput, Button} from "react-native";
+import { View, TextInput, Button, Text, Pressable,} from "react-native";
 import { styles } from "../styles/StyleSheet";
 import { useNavigation } from "@react-navigation/native";
 import Rotas from "../components/Rotas";
+import { TouchableOpacity } from "react-native-web";
 export default function ComponentContact() {
 
   const navigation = useNavigation();
   
   return (
-    <View>
+    <View style={styles.contact}>
          <Rotas />
       {/* Caixa do nome */}
       <TextInput style={styles.inputname} 
@@ -32,14 +33,28 @@ export default function ComponentContact() {
 <Button
      title='Enviar Mensagem'
      onPress={() => {
-       alert('Mensagem   Enviada');
+       alert('Mensagem Enviada(Button)');
      }}
      color='green'
      
-     
     />
-   
+
+    <TouchableOpacity
+style={styles.touch}
+onPress={() => alert("mensagem enviada(TouchableOpacity")}>
+
+<Text >Enviar Mensagem</Text>
+    </TouchableOpacity>
+
+
+<Pressable
+style={styles.btn}
+onPress={() => alert("Você enviou a mensagem(Pressable)")}>
+
+<Text>
+Enviar Mensagem
+</Text>
+</Pressable>
     </View>
   );
 }
-

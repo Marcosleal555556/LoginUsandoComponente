@@ -38,6 +38,34 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
    
   },
+  about: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  contact: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  touch: {
+margin: 12,
+fontSize: 15,
+borderWidth: 1,
+padding: 15,
+
+  },
+
+  btn: {
+    margin: 12,
+    fontSize: 15,
+    borderWidth: 1,
+    padding: 15,
+    
+      },
   
 
   // Editar o Text

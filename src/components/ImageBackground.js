@@ -8,7 +8,7 @@ import { styles } from '../styles/StyleSheet';
 export default function ImagBack({children}) {
 
 return (
-<ImageBackground source={require('../assets/imagens/fundo.png')} style={styles.fundologin}>
+<ImageBackground source={require('../assets/imagens/fundo.jpeg')} style={styles.fundologin}>
 {children}
 </ImageBackground>
 );

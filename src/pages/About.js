@@ -10,7 +10,7 @@ export default function About() {
 
 
   return (
-    <View style={{  justifyContent: 'center' }}>
+    <View style={styles.about}>
       
       <Rotas />
       <Image source={require('../assets/imagens/Gatinho.jpeg')} style={styles.gato}/>
