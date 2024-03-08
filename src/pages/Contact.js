@@ -8,26 +8,29 @@ export default function ComponentContact() {
   
   return (
     <View>
+         <Rotas />
       {/* Caixa do nome */}
-      <TextInput style={styles.inputname} 
+      <TextInput style={styles.inputcontact} 
       placeholder="Nome" 
       inputMode="text" 
       />
 
       {/*Caixa do email*/}
       <TextInput
-        style={styles.inputname}
+        style={styles.inputcontact}
         placeholder="E-mail"
         inputMode="text"
       />
       
       {/*Caixa da mensagem do usuario*/}
       <TextInput
-        style={styles.inputname}
+        style={styles.inputcontact}
         placeholder="Mensagem"
         inputMode="text"
       />
-      <Rotas />
+
+
+   
     </View>
   );
 }

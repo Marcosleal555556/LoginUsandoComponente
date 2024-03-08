@@ -7,16 +7,15 @@ export default function About() {
   //Variável que permite que você navegue entre as telas
   const navigation = useNavigation();
 
-  const imagem = {
-    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUP0eZQkYRyfLZ3XfH8nWN-880jbLF8fUZAoAH_b4fg&s",
-  };
+
 
   return (
-    <View>
-      <Image source={imagem} resizeMode="cover" style={styles.about}>
-        <Text>Exemplo de página About</Text>
-      </Image>
+    <View style={{  justifyContent: 'center' }}>
+      
       <Rotas />
+      <Image source={require('../assets/imagens/Gatinho.jpeg')} style={styles.gato}/>
+      <Text>Exemplo de página About</Text>
+      
     </View>
   );
 }

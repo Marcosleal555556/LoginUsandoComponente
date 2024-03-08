@@ -11,20 +11,7 @@ export const styles = StyleSheet.create({
   },
 
   // Editar a Fundo
-  fundo: {
-    height: 300,
-    width: 300,
-    resizeMode: "cover",
-    source: "imagem",
-  },
- //página about
-  about: {
-    height: 300,
-    width: 300,
-    borderRadius: 300,
-    resizeMode: "cover",
-    source: "imagem",
-  },
+ 
 
   // Editar a Imagem
   fundologin: {
@@ -34,6 +21,13 @@ export const styles = StyleSheet.create({
     resizeMode: 'cover',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  gato: {
+    width: 300,
+    height: 300,
+    borderRadius: '100%',
+  
+
   },
 
   home: {
@@ -45,6 +39,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 500,
   },
+  
 
   // Editar o Text
   text: {

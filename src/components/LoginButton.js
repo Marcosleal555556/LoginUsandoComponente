@@ -11,8 +11,6 @@ return (
        alert('Login Efetuado');
      }}
      color='red'
-     
-     
     />
 </View>
 );
