@@ -11,7 +11,7 @@ export default function Home() {
 return (
   
 <View>
-<ImageBackground source={Fundo} resizeMode="cover" style={styles.fundo}>
+<ImageBackground source={Fundo} resizeMode="cover" style={styles.home}>
 
 <Text>
 HOMEPAGE
