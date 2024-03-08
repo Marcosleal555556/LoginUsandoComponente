@@ -1,15 +1,30 @@
-import { Text, View, StyleSheet, ImageBackground } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground, Button } from 'react-native';
 import { styles } from '../styles/StyleSheet';
-import Home from '../components/ComponentHome';
+import { useNavigation } from "@react-navigation/native";
 
+const Fundo = {
+  uri: 'https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709769600&semt=ais',
+}
 
-export default function Home() {
+export default function ComponentHome() {
+  const navigation = useNavigation();
 
 return (
   
 <View>
+<ImageBackground source={Fundo} resizeMode="cover" style={styles.home}>
 
-<Home />
+<Text style={{ fontWeight: "bold", color: 'white', fontSize: 65, textAlign: 'center'}}> 
+HOMEPAGE
+</Text>
+
+<Button
+        title="Ir para About"
+        onPress={() => navigation.navigate("Sobre")}
+      />
+
+</ImageBackground>
+
 </View>
 );
 }

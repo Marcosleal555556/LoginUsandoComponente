@@ -6,7 +6,7 @@ const imagem = {
   uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUP0eZQkYRyfLZ3XfH8nWN-880jbLF8fUZAoAH_b4fg&s',
 }
 
-export default function Home() {
+export default function ComponentAbout() {
 
 return (
   

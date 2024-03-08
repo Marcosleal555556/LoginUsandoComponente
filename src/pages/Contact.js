@@ -1,10 +1,24 @@
-import { View } from "react-native";
-import Contact from "../components/ComponentContact";
+import { View, TextInput } from "react-native";
+import { styles } from "../styles/Estilos";
 
-export default function Contact() {
+export default function ComponentContact() {
   return (
     <View>
-        <Contact/>
+      {/* Caixa do nome */}
+      <TextInput style={styles.inputname} placeholder="Nome" inputMode="text" />
+      {/*Caixa do email*/}
+      <TextInput
+        style={styles.inputname}
+        placeholder="E-mail"
+        inputMode="text"
+      />
+      {/*Caixa da mensagem do usuario*/}
+      <TextInput
+        style={styles.inputname}
+        placeholder="Mensagem"
+        inputMode="text"
+      />
     </View>
   );
 }
+

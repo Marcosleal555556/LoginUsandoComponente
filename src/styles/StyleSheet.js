@@ -29,12 +29,14 @@ about: {
 },
 
 // Editar a Imagem
-imagem: {
+home: {
 
-    height: 300,
-    width: 300,
-    resizeMode: 'center',
-    source: 'imagem',
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 500,
+    
 
 },
 

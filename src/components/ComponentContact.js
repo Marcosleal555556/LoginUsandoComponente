@@ -1,7 +1,7 @@
 import { View, TextInput } from "react-native";
 import { styles } from "../styles/Estilos";
 
-export default function LoginInput() {
+export default function ComponentContact() {
   return (
     <View>
       {/* Caixa do nome */}
