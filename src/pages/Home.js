@@ -11,7 +11,7 @@ export default function ComponentHome() {
   const navigation = useNavigation();
 
   return (
-    <View style={{flex: 1}}>
+    <View style={{ flex: 1 }}>
       <ImageBackground source={Fundo} resizeMode="cover" style={styles.home}>
         <Text
           style={{
@@ -24,8 +24,6 @@ export default function ComponentHome() {
           HOMEPAGE
         </Text>
         <Rotas />
-
-
       </ImageBackground>
     </View>
   );
